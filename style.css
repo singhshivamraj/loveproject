@@ -1,0 +1,110 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  
+}
+
+body {
+   background-color: rgb(242, 181, 191);
+   color: white;
+   font-family: 'Poppins';
+   height: 100vh;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 200px ;
+}
+
+.containt{
+   background: linear-gradient(45deg, #e30909, #40fc06, #090487);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+
+
+button {
+   padding: 7px 30px;
+   border: none;
+   font-size: 20px;
+   border-radius: 8px;
+   font-weight: 500;
+   cursor: pointer;
+  
+
+}
+#right{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#No{
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+background-color: red;
+color: white;
+transition: all 0.3s ease;
+display: flex;
+flex-direction: column;
+align-items: center;
+  
+
+
+}
+button:hover{
+opacity: 0.5;
+
+
+}
+
+/* Text_container  */
+
+
+.Text_container{
+   text-align: center;
+   font-size: 24px;
+   line-height: 2;
+   margin-top: 10px;
+   color: rgb(255, 255, 255);
+}
+
+.Quets{
+   font-size: 20px;
+   margin-top: 24px;
+   font-weight: bold;
+   
+ 
+}
+
+.sadLoveText{
+   margin-top: 50px;
+   text-align: center;
+}
+#LoveQuets{
+   width: 500px;
+   background: linear-gradient(45deg, #f70499, #fb042d, #090487);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   
+}
+.box{
+   margin-top: 40px;
+}
